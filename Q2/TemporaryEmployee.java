@@ -15,6 +15,7 @@ public class TemporaryEmployee extends Employee {
 	void calculateSalary() {
 		// TODO Auto-generated method stub
 		this.salary = hoursWorked * hourlyWages;
+		System.out.println("Slary  TEmployee : " + this.salary);
 	}
 
 	public int getHoursWorked() {

@@ -30,8 +30,8 @@ public class Main {
 		emp2.setHourlyWages(500);
 		emp2.setHoursWorked(8);
 		double loanT = l.calculateLoanAmount(empt);
-		System.out.println("Loan Amount PermanentEmployee : " + loanT);
-		System.out.println("Slary  PermanentEmployee: " + emp2.getSalary());
+		System.out.println("Loan Amount TEmployee : " + loanT);
+		emp2.calculateSalary();
 	}
 }
 
